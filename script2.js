@@ -7,6 +7,9 @@ let card = document.querySelectorAll('.card')
 //         imgE1.setAttribute('src', imgUrl)
 //     })
 // }
+
+
+
 for (let i = 0; i < card.length; i++) {
   card[i].addEventListener('click',(e)=>{
         let imgUrl = e.target.getAttribute('src')
